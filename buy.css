@@ -1,0 +1,203 @@
+.main-div-1-weopan{
+    margin-top: 44.5px;
+    width: 1063px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main-div-1-pokypka{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 266px;
+}
+.main-info-pokypka{
+    display: flex;
+    justify-content: space-between;
+    width: 338px;
+    position: relative;
+    bottom: 63px;
+    align-items: center;
+}
+.main-info-pokypka-1{
+    display: flex;
+    justify-content: space-between;
+    width: 252px;
+    position: relative;
+    bottom: 45px;
+}
+.info-pokypka-2{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-pokypka{
+    font-size: 18px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 85px;
+    height: 39px;
+    border-radius: 14px;
+    background-color: #eb5e28;
+    justify-content: center;
+}
+.info-pokypka-1{
+    font-size: 18px;
+    text-shadow: 3px 0 3px #eb5e28, 0 3px 3px #eb5e28, -3px 0 3px #eb5e28, 0 -3px 3px #eb5e28;
+}
+.oryshie-img{
+    border-radius: 10px;
+    border: #ccc5b9  solid 1px;
+    box-shadow: #403d39 15px 15px 20px;
+    width: 372px;
+}
+.brony-img{
+    border-radius: 10px;
+    border: #ccc5b9  solid 1px;
+    box-shadow: #403d39 15px 15px 20px;
+    width: 350px;
+}
+h5{
+    font-size: 22px;
+    color: #ffffff;
+    text-shadow:  1px 0 1px #000, 
+                0 1px 1px #000, 
+                -1px 0 1px #000, 
+                0 -1px 1px #000;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.pokypka-button{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #403d39;
+    width: 125px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: -40px;
+    border: #000 2px solid;
+}
+.pokypka-button:hover{
+    background-color: #eb5e28;
+    border: #ffffff 1px;
+}
+.info-money{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.knopka-1-info{
+    width: 95px;
+    height: 45px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    color: #ffffff;
+}
+.knopka-2-info{
+    width: 118px;
+    height: 45px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    color: #ffffff; 
+}
+.knopka-3-info{
+    width: 195px;
+    height: 45px;
+    border-radius:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.knopka-4-info{
+    width: 186px;
+    height: 45px;
+    border-radius:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.knopka-1-info:hover, .knopka-2-info:hover, .knopka-3-info:hover,.knopka-4-info:hover{
+    background-color:#eb5e28 ;
+    color: white;
+}
+.cvaz-info-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.cvaz-info-1-text{
+    margin-top: 20px;
+    width: 1158px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cvaz-info-1-soccet img:last-child{
+    display: none
+}
+
+.cvaz-info-1-soccet:hover img:last-child{
+    display: inline-block;
+}
+.cvaz-info-1-soccet:hover img:first-child{
+    display: none;
+}
+.cvaz-info-2-soccet img:last-child{
+    display: none;
+}
+
+.cvaz-info-2-soccet:hover img:last-child{
+    display: inline-block;
+}
+.cvaz-info-2-soccet:hover img:first-child{
+    display: none;
+}
+.card {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+  }
+  
+  .card-item {
+    transition: transform 0.2s;
+  }
+.main_div_post-icon{
+    display:flex;
+    width: 20%;
+    justify-content: space-around;
+}
+.main_div_icon{
+    border-radius: 17px;
+    border: #ffffff 1px solid;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all;
+}
+.main_div_icon:hover{
+    background-color: #eb5e28;
+    width: 80px;
+    height: 80px;
+    box-shadow: 5px 5px 10px #565454;
+}
+.fon_white{
+    background-color:#403d39;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid white;
+}

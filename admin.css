@@ -1,0 +1,23 @@
+.back-profile{
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all;
+    position: relative;
+    left: -620px;
+    border: 1px solid #000;
+}
+.back-profile:hover{
+    background-color: #eb5e28;
+    color: white;
+    border: 1px solid #000;
+}
+.zakaz_href{
+    color:white;
+    text-decoration: revert;
+}

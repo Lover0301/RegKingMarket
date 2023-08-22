@@ -1,0 +1,114 @@
+.main-div-vid-korzina{
+    width: 1130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid rgba(255, 255, 255, 0.2);
+    border-radius:25px;
+    outline:0;
+    margin-bottom:0px;
+}
+h6{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #eb5e28;
+    margin-bottom: 20px;
+    text-shadow:  1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
+.line-2{
+    margin-top: 20px;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.2);
+    height: 1px;
+}
+.modal-body{
+ margin-top: 20px;
+}
+table, th, td.text-center{
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-collapse:collapse;
+    width:1000px;
+    margin-bottom:1rem;;
+    text-align: center;
+    height: 50px;
+}
+.modal-footer{
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+td.text-right{
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    height: 84px;
+}
+.knopka-1-korzina{
+    background-color: white;
+    width: 104px;
+    height: 45px;
+    margin-right: 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.knopka-2-korzina{
+    background-color: #eb5e28;
+    width: 182px;
+    height: 45px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-right: 60px;
+}
+.knopka-1-korzina:hover, .knopka-2-korzina:hover{
+    background-color: #eb5e28;
+    border: none;
+}
+main{
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.form__item{
+    width: 100%;
+    height: 40px;
+}
+.form__input{
+    width: 25px;
+    height: 25px;
+}
+#main-button{
+    background-color: #ffffff;
+    width: 180px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+#main-button:hover, .btn-danger:hover{
+    background-color: #eb5e28;
+    color: white;
+}
+.collapsible-content__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn-danger{
+    background-color: #ffffff;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-right: 60px;    
+    transition: 0.5s all;
+}
